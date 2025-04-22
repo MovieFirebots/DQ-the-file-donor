@@ -43,7 +43,7 @@ NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
 SECONDDB_URI = environ.get('SECONDDB_URI', None)
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://AnimeFireTamil:Skesavan7@cluster0.mongodb.net/mydb?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://AnimeFireBot:Skesavan7@cluster0.zu5mx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "LuffyAnimeFiles")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AnimeFiles')
 
