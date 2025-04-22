@@ -7,7 +7,7 @@ class Database:
     
     def __init__(self, database_name):
         #primary db 
-        self._client = motor.motor_asyncio.AsyncIOMotorClient("mongodb+srv://AnimeFireBot:Skesavan7@cluster0.zu5mx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+        self._client = motor.motor_asyncio.AsyncIOMotorClient(DATABASE_URI)
         self.db = self._client[database_name]
         self.col = self.db.users
         self.grp = self.db.groups
